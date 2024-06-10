@@ -1,0 +1,93 @@
+.menu{
+ list-style: none;
+ padding-left:0;
+ margin-left:0;
+ width: 900px;
+ border-bottom;px solid black;
+ color:F3F3F3;
+ font-size:20px;
+ border-style:inset;
+ border-color: 3D85C6;
+ }
+ .menu a{
+ background-color: F3F3F3;
+ display:block;
+ border-top:1px solid black;
+ height:100 px;
+ text-decoration: none;
+ }
+
+ h1{
+ background-color: F3F3F3;
+ color:3D85C6;
+ font-family: Arial, cursive;
+ font-size:20px;
+ text-align: center;
+ 
+ }
+.text-typing
+{
+    text-indent: 1.5em;
+    margin: 5px 280px;
+    width: 700px;
+    text-align: left;
+    background-color: F3F3F3;
+    color: 3D85C6;
+    font-size: 22px;
+    font-family: cursive;
+    white-space:nowrap;
+    overflow:hidden;
+    -webkit-animation: type 5s steps(50, end);
+    animation: type 5s steps(50, end);
+}
+@keyframes type{
+    from { width: 0; }
+}
+ 
+@-webkit-keyframes type{
+    from { width: 0; }
+}
+  A { font-size: 20px; color:3D85C6; background-color:F3F3F3; text-decoration: none; font-family:FreeMono, monospace }
+  .darck {color:3D85C6;  text-decoration: none }
+
+p {
+   font-size: 18px;
+   line-height: 1.5;
+   margin-bottom: 20px;
+  }
+  .term {
+   background-color: F3F3F3;
+   border-radius: 5px;
+   margin-bottom: 10px;
+   padding: 8px;
+   font-family: Arial;
+  }
+
+ .term h2 {
+   text-align: left;
+   font-size: 24px;
+   margin-bottom: 10px;
+  }
+
+  .term p {
+   font-size: 16px;
+   line-height: 1.5;
+   margin-bottom: 0;
+  } 
+table {
+    width: 80%;
+    background: black;
+    color: 3D85C6;
+    border-spacing: 1px;
+   }  
+ th {
+    background: white;
+    padding: 5px;
+    font-family:  Sans Serif;
+    font-size:18px;
+   }
+td {
+    text-align: justify;
+    background: white;
+    padding: 5px;
+    font-family:  Sans Serif;
